@@ -11,7 +11,7 @@ An algorithm simulator Windows Application coded in C++, using Qt Framework for 
 4. View of path & commands generated
 
 # Demo
-https://github.com/SohWeeKiat/MDPAlgo/assets/27757880/c7029030-2ef0-4fe4-be5a-a2647ceba997
+https://github.com/SohWeeKiat/SC2079-MDP-AlgoSimulator/assets/27757880/0c83f1f5-7ec7-4036-917f-d81c83de47e0
 
 # Acknowledgements
 | Name  | 
