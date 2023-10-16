@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FieldObject">
+      <UniqueIdentifier>{646d903f-b576-4188-b0f7-438ab4e0f2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MazeSolver">
+      <UniqueIdentifier>{6e2b4f9c-aa94-43b3-b238-3f02aff472c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TSP">
+      <UniqueIdentifier>{e8b83e92-227c-424a-8e29-a72046234997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{289d5e66-e5f2-4890-97e9-2f5a8c1994b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{167e7938-99aa-4aef-8d7c-f8fb06eef476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{88f6a970-d005-4859-9767-f72a62312ef3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FieldObjects.hpp">
+      <Filter>FieldObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TSP.hpp">
+      <Filter>TSP</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeSolver.hpp">
+      <Filter>MazeSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.hpp">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FieldObjects.cpp">
+      <Filter>FieldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TSP.cpp">
+      <Filter>TSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeSolver.cpp">
+      <Filter>MazeSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
